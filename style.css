@@ -1,0 +1,210 @@
+#Barra-menu{
+
+background-color: white;
+
+}
+
+#Menu ul li a{
+
+color: rgb(0, 0, 0);
+font-size: 11px;
+margin-top: 12px;
+}
+
+#sub-menu #letras{
+
+color: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+
+
+#Identidad{
+
+width: 100%;
+height: auto;
+position: relative;
+overflow: hidden;
+
+}
+
+video{
+    width: 100%;
+}
+
+.absolute{
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Info h1{
+
+color: #ffd900;
+margin-top: 28%;
+font-size: 50px;
+}
+
+#Info p{
+
+color: #FFFFFF;
+font-size: 15px;
+    
+}
+
+
+#Info2 h1{
+
+    color: #ffd900;
+    margin-top: 28%;
+    font-size: 20px;
+}
+    
+#Info2 p{
+    
+    color: #FFFFFF;
+    font-size: 5px;
+        
+}
+
+
+
+
+
+#Nuestro-Plan{
+
+margin-top: 0;
+padding: 30px;
+border: none;
+background-color: rgb(255, 255, 255);
+
+
+}
+
+#texto h1{
+
+color: #000000;
+text-align: center;
+padding: 30px;
+font-size: 50px;
+
+}
+
+#texto p{
+
+color: #000000;
+text-align: center;
+}
+
+#B-Ver-Informacion {
+
+background-color: #ffd900;
+color: #000000;
+text-align: center;
+padding: 10px;
+width: 80%;
+border-radius: 20px;
+
+}
+
+#sociedades{
+
+background-color: #000000;
+border-radius: 0;
+margin: 0;
+padding: 0;
+
+}
+
+#sociedad h1{
+
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#sociedad p{
+
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#socio{
+
+background-color: #ffd900;
+border-radius: 50px;
+margin: 15px;
+border: none;
+text-align: center;
+
+}
+
+#socio h2{
+
+font-size: 35px;
+color: #000000;
+
+}
+
+#socio p{
+
+font-size: 16px;
+color: #000000;
+    
+}
+
+#mision{
+
+margin: 0;
+padding: 0;
+border: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+#mision-text h1{
+text-align: center;
+margin-top: 40%;
+color: #000000;
+
+}
+
+#mision-text p{
+    text-align: center;
+    color: #000000;
+}
+
+#vision{
+
+margin: 0;
+padding: 0;
+border: none;
+background-color: #000000;
+
+}
+
+#vision-text h1{
+    text-align: center;
+    margin-top: 30%;
+    color: #ffffff;
+}
+
+#vision-text p{
+    text-align: center;
+    color: #ffffff;
+}
