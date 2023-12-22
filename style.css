@@ -1,6 +1,13 @@
 #Barra-menu{
 
-background-color: white;
+background-color: #ffbb00;
+
+}
+
+#Logo{
+
+box-shadow: 0px 0px 7px 0.1px #000000 ;
+border-radius: 100%;
 
 }
 
@@ -56,10 +63,17 @@ width: fit-content;
 
 }
 
+#tlf{
+
+margin-bottom: 40px ;
+margin-top: 40px ;
+
+
+}
 
 #Info h1{
 
-color: #ffd900;
+color: #ffbb00;
 margin-top: 28%;
 font-size: 50px;
 }
@@ -74,7 +88,7 @@ font-size: 15px;
 
 #Info2 h1{
 
-    color: #ffd900;
+    color: #ffbb00;
     font-size: 25px;
 }
     
@@ -114,22 +128,39 @@ color: #000000;
 text-align: center;
 }
 
+#texto1 h1{
+
+color: #000000;
+text-align: center;
+padding: 30px;
+font-size: 40px;
+
+}
+    
+#texto1 p{
+font-size: 15px;
+color: #000000;
+text-align: center;
+}
+
 #B-Ver-Informacion {
 
-background-color: #ffd900;
+background-color: #ffbb00;
 color: #000000;
 text-align: center;
 padding: 10px;
 width: 80%;
 border-radius: 20px;
+margin-bottom: 40px;
 
 }
 
 #B-Ver-Informacion1 {
 
-    background-color: #ffd900;
+    background-color: #ffbb00;
     color: #000000;
     text-align: center;
+    margin-bottom: 50px;
     padding: 10px;
     width: 100%;
     border-radius: 20px;
@@ -141,7 +172,7 @@ border-radius: 20px;
 
 #B-Ver-Informacion2 {
 
-    background-color: #ffd900;
+    background-color: #ffbb00;
     color: #000000;
     text-align: center;
     padding: 5px;
@@ -177,7 +208,7 @@ padding: 0;
 
 #socio{
 
-background-color: #ffd900;
+background-color: #ffbb00;
 border-radius: 50px;
 margin: 15px;
 border: none;
@@ -195,6 +226,20 @@ color: #000000;
 #socio p{
 
 font-size: 16px;
+color: #000000;
+    
+}
+
+#socio2 h2{
+
+font-size: 25px;
+color: #000000;
+
+}
+
+#socio2 p{
+
+font-size: 12px;
 color: #000000;
     
 }
