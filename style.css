@@ -32,8 +32,14 @@ overflow: hidden;
 
 }
 
-video{
+
+#video{
     width: 100%;
+}
+
+video{
+width: 100%;
+width: fit-content;
 }
 
 .absolute{
@@ -69,13 +75,13 @@ font-size: 15px;
 #Info2 h1{
 
     color: #ffd900;
-    font-size: 15px;
+    font-size: 25px;
 }
     
 #Info2 p{
     
     color: #FFFFFF;
-    font-size: 6px;
+    font-size: 15px;
         
 }
 
