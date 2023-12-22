@@ -4,6 +4,29 @@ background-color: #ffbb00;
 
 }
 
+
+#B-Menu{
+
+font-size: 50px;
+color: #000000;
+}
+
+.navbar-toggler{
+
+border: none;
+
+}
+
+
+
+.navbar-toggler:focus{
+
+box-shadow:  0px 0px 0px 0px #000000;
+text-shadow: 0px 0px 0px 0px #000000;
+border: none;
+    
+}
+
 #Logo{
 
 box-shadow: 0px 0px 7px 0.1px #000000 ;
@@ -15,7 +38,7 @@ border-radius: 100%;
 text-align: center;
 color: rgb(0, 0, 0);
 font-size: 11px;
-margin-top: 12px;
+margin-top: 5px;
 }
 
 #sub-menu #letras{
