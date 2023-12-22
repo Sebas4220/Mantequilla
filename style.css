@@ -12,7 +12,7 @@ border-radius: 100%;
 }
 
 #Menu ul li a{
-
+text-align: center;
 color: rgb(0, 0, 0);
 font-size: 11px;
 margin-top: 12px;
@@ -265,6 +265,21 @@ color: #000000;
     color: #000000;
 }
 
+#mision-text1 h1{
+font-size: 50px;
+text-align: center;
+margin-top: 40%;
+color: #000000;
+
+}
+
+#mision-text1 p{
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+
 #vision{
 
 margin: 0;
@@ -277,10 +292,283 @@ background-color: #000000;
 #vision-text h1{
     text-align: center;
     margin-top: 30%;
-    color: #ffffff;
+    color: #ffbb00;
 }
 
 #vision-text p{
     text-align: center;
     color: #ffffff;
+}
+
+
+#vision-text1 h1{
+font-size: 50px;
+text-align: center;
+color: #ffbb00;
+
+}
+
+#vision-text1 p{
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#valores{
+
+margin: 0;
+padding: 0;
+border: none;
+background-color: #000000;
+
+}
+
+#valores-text h1{
+    text-align: center;
+    margin-top: 20%;
+    color: #000000;
+}
+
+#valores-text p{
+    text-align: center;
+    color: #000000;
+}
+
+
+#valores-text1 h1{
+font-size: 50px;
+text-align: center;
+color: #000000;
+
+}
+
+#valores-text1 p{
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+
+#equipo{
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #000000;
+
+}
+
+#equipo-text h1{
+    text-align: center;
+    margin-top: 40%;
+    color: #ffbb00;
+}
+
+#equipo-text p{
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#equipo-text1 h1{
+font-size: 50px;
+text-align: center;
+color: #ffbb00;
+
+}
+
+#equipo-text1 p{
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#Mapa-text h1{
+margin-top: 60px;
+text-align: center;
+color: #ffbb00;
+
+}
+
+
+
+.slider{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 40s linear infinite;
+
+}
+
+@keyframes rotate {
+    0% {
+    transform: perspective(3000px) rotateY(0deg);
+    }
+
+    100% {
+    transform: perspective(3000px) rotateY(360deg);
+    }
+}
+
+.slider span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(250px);
+}
+
+.slider span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    object-fit: cover;
+
+}
+
+.slider span img:hover{
+    transform: translateY(-10px) scale(1);
+
+}
+
+
+
+
+
+#juegos{
+padding-top: 50px;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+
+}
+
+
+
+
+
+#acciones:hover{
+    transform: translateY(-10px) scale(1);
+
+}
+
+
+.slider-container{
+
+    width: 100%;
+    margin: 2rem auto;
+    display: grid;
+    padding: 10px;
+    grid-auto-flow: column;
+    column-gap: 1.5rem;
+    overflow: auto;
+
+}
+
+.slider-container::-webkit-scrollbar{
+
+display: none;
+
+
+}
+
+
+
+.slider-item{
+margin: 0;
+position: relative;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+animation: slider 20s linear infinite;
+
+}
+
+.slider-item img{
+width: 160px;
+height: 210px;
+object-fit: fill;
+border-radius: 20px;
+transition: all .4s ease-in-out;
+cursor: pointer;
+}
+
+
+.slider-item img:hover{
+
+transform: translateY(-10px) scale(1);
+
+}
+
+
+@keyframes slider{
+    0%{transform: translateX(0);}
+    10%{transform: translateX(0)}
+
+    15%{transform: translateX(-110%)}
+    30%{transform: translateX(-110%)}
+
+    35%{transform: translateX(-225%)}
+    50%{transform: translateX(-225%)}
+
+    55%{transform: translateX(-110%)}
+    70%{transform: translateX(-110%)}
+
+    75%{transform: translateX(0)}
+    90%{transform: translateX(0)}
+
+    95%{transform: translateX(0)}
+    100%{transform: translateX(0)}
+
+
+}
+
+
+
+
+
+#footer{
+
+    margin: 20px;
+    padding: 0;
+    border: none;
+}
+
+#footer-text h1{
+
+color: #000000;
+text-align: center;
+font-size: 15px;
+
+}
+
+#footer-text p{
+color: #000000;
+text-align: center;
+font-size: 12px;
+    
+}
+
+#iconos-redes{
+
+margin-top: 25px;
+font-size: 30px;
+
+}
+
+#Copy{
+margin-top: 45px;
+font-size: 12px;
+
 }
