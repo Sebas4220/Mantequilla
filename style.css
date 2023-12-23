@@ -54,7 +54,7 @@ margin-top: 5px;
 #Nav-movil li a{
     text-align: center;
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 2px;
 }
 
@@ -141,13 +141,13 @@ font-size: 15px;
 #Info2 h1{
 
     color: #ffbb00;
-    font-size: 25px;
+    font-size: 22px;
 }
     
 #Info2 p{
     
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 12px;
     
 }
 
@@ -184,13 +184,13 @@ text-align: center;
 
 color: #000000;
 text-align: center;
-padding: 30px;
-font-size: 40px;
+padding-top: 30px;
+font-size: 30px;
 
 }
     
 #texto1 p{
-font-size: 15px;
+font-size: 12px;
 color: #000000;
 text-align: center;
 
@@ -205,6 +205,7 @@ padding: 10px;
 width: 80%;
 border-radius: 20px;
 margin-bottom: 40px;
+font-size: 12px;
 
 }
 
@@ -292,7 +293,7 @@ color: #000000;
 
 #socio2 p{
 
-font-size: 10px;
+font-size: 12px;
 color: #000000;
     
 }
@@ -319,15 +320,14 @@ color: #000000;
 }
 
 #mision-text1 h1{
-font-size: 50px;
+font-size: 40px;
 text-align: center;
-margin-top: 40%;
 color: #000000;
 
 }
 
 #mision-text1 p{
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
     color: #000000;
 }
@@ -344,7 +344,7 @@ background-color: #000000;
 
 #vision-text h1{
     text-align: center;
-    margin-top: 30%;
+    margin-top: 20%;
     color: #ffbb00;
 }
 
@@ -355,14 +355,14 @@ background-color: #000000;
 
 
 #vision-text1 h1{
-font-size: 50px;
+font-size: 30px;
 text-align: center;
 color: #ffbb00;
 
 }
 
 #vision-text1 p{
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
     color: #ffffff;
 }
@@ -390,14 +390,14 @@ background-color: #000000;
 
 
 #valores-text1 h1{
-font-size: 50px;
+font-size: 40px;
 text-align: center;
 color: #000000;
 
 }
 
 #valores-text1 p{
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
     color: #000000;
 }
@@ -429,14 +429,14 @@ color: #000000;
 
 
 #equipo-text1 h1{
-font-size: 50px;
+font-size: 40px;
 text-align: center;
 color: #ffbb00;
 
 }
 
 #equipo-text1 p{
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
     color: #ffffff;
 }
