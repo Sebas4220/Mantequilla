@@ -7,7 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
     </head>
   <body>
  
@@ -16,70 +19,135 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <nav class="navbar navbar-expand-xl" id="Menu">
+                        <nav class="navbar navbar-expand-xl" >
                             <div class="container-fluid">
                               <a class="navbar-brand" href="#"><img src="./Imagenes index/mantequilla-logo.png" width="65px" alt="" id="Logo"></a>
                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                 <span><i class="bi bi-list" id="B-Menu"></i></span>
                               </button>
                               <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item dropdown">
+                                
+                                <div class="d-none d-sm-none d-xl-block d-xxl-block d-lg-none d-md-none">
+                                    <ul class="navbar-nav " id="Menu">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Inicio
+                                            </a>
+                                            <ul class="dropdown-menu" id="sub-menu">
+                                              <li><a class="dropdown-item" href="#" id="letras">Documentación</a></li>
+                                            </ul>
+                                          </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Fondos Recolectados</a>
+                                      </li>
+                                      <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                          Inicio
+                                          Sociedades
                                         </a>
                                         <ul class="dropdown-menu" id="sub-menu">
-                                          <li><a class="dropdown-item" href="#" id="letras">Documentación</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sociedad Bronce</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sociedad Plata</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sociedad Oro</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sociedad Diamante</a></li>
                                         </ul>
                                       </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Fondos Recolectados</a>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Sociedades
-                                    </a>
-                                    <ul class="dropdown-menu" id="sub-menu">
-                                      <li><a class="dropdown-item" href="#" id="letras">Sociedad Bronce</a></li>
-                                      <li><a class="dropdown-item" href="#" id="letras">Sociedad Plata</a></li>
-                                      <li><a class="dropdown-item" href="#" id="letras">Sociedad Oro</a></li>
-                                      <li><a class="dropdown-item" href="#" id="letras">Sociedad Diamante</a></li>
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Complemento
+                                        </a>
+                                        <ul class="dropdown-menu" id="sub-menu">
+                                          <li><a class="dropdown-item" href="#" id="letras">Dolares Mantequilla</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sorteo Mantequilla</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Caja Mantequilla</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Marketplace</a></li>
+                                        </ul>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Aliados y lideres
+                                        </a>
+                                        <ul class="dropdown-menu" id="sub-menu">
+                                          <li><a class="dropdown-item" href="#" id="letras">Colaboradores y Asociados</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Premios de Rango</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Programa para lideres</a></li>
+                                        </ul>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Soporte y Fallas</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Ayuda y Donaciones</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#" style="margin: 0; padding: 0;"><img src="./Imagenes index/Google Play.png" width="120px" alt=""></a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#" style="margin: 0; padding: 0;"><img src="./Imagenes index/App Store.png" width="120px" alt=""></a>
+                                      </li>
                                     </ul>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Complemento
-                                    </a>
-                                    <ul class="dropdown-menu" id="sub-menu">
-                                      <li><a class="dropdown-item" href="#" id="letras">Dolares Mantequilla</a></li>
-                                      <li><a class="dropdown-item" href="#" id="letras">Sorteo Mantequilla</a></li>
-                                      <li><a class="dropdown-item" href="#" id="letras">Caja Mantequilla</a></li>
-                                      <li><a class="dropdown-item" href="#" id="letras">Marketplace</a></li>
+                                </div>
+
+
+                                <div class="d-block d-sm-block d-xl-none d-xxl-none d-lg-block d-md-block">
+                                    <ul class="navbar-nav " id="Nav-movil">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Inicio
+                                            </a>
+                                            <ul class="dropdown-menu" id="sub-menu">
+                                              <li><a class="dropdown-item" href="#" id="letras">Documentación</a></li>
+                                            </ul>
+                                          </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Fondos Recolectados</a>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Sociedades
+                                        </a>
+                                        <ul class="dropdown-menu" id="sub-menu">
+                                          <li><a class="dropdown-item" href="#" id="letras">Sociedad Bronce</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sociedad Plata</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sociedad Oro</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sociedad Diamante</a></li>
+                                        </ul>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Complemento
+                                        </a>
+                                        <ul class="dropdown-menu" id="sub-menu">
+                                          <li><a class="dropdown-item" href="#" id="letras">Dolares Mantequilla</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Sorteo Mantequilla</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Caja Mantequilla</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Marketplace</a></li>
+                                        </ul>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Aliados y lideres
+                                        </a>
+                                        <ul class="dropdown-menu" id="sub-menu">
+                                          <li><a class="dropdown-item" href="#" id="letras">Colaboradores y Asociados</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Premios de Rango</a></li>
+                                          <li><a class="dropdown-item" href="#" id="letras">Programa para lideres</a></li>
+                                        </ul>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Soporte y Fallas</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Ayuda y Donaciones</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#" style="margin: 0; padding: 0;"><img src="./Imagenes index/Google Play.png" width="60%" alt=""></a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#" style="margin: 0; padding: 0;"><img src="./Imagenes index/App Store.png" width="60%" alt=""></a>
+                                      </li>
                                     </ul>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Aliados y lideres
-                                    </a>
-                                    <ul class="dropdown-menu" id="sub-menu">
-                                      <li><a class="dropdown-item" href="#" id="letras">Colaboradores y Asociados</a></li>
-                                      <li><a class="dropdown-item" href="#" id="letras">Premios de Rango</a></li>
-                                      <li><a class="dropdown-item" href="#" id="letras">Programa para lideres</a></li>
-                                    </ul>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Soporte y Fallas</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Ayuda y Donaciones</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#" style="margin: 0; padding: 0;"><img src="./Imagenes index/Google Play.png" width="120px" alt=""></a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#" style="margin: 0; padding: 0;"><img src="./Imagenes index/App Store.png" width="120px" alt=""></a>
-                                  </li>
-                                </ul>
+                                </div>
+
                               </div>
                             </div>
                           </nav>
@@ -89,20 +157,18 @@
         </div>
     </header>
 
-    <section class="d-none d-sm-none d-md-block" id="Identidad" style="margin: 0; padding: 0;">
+    <section class="d-none d-sm-none d-xl-block d-xxl-block d-lg-block d-md-none" id="Identidad" style="margin: 0; padding: 0;">
         <div class="absolute">
             <div class="container">
-                <div class=" ">
-                    <div class="row" >
-                        <div class="col" id="Info">
-                            <h1>SOBRE NOSOTROS</h1>
-                            <p>Mantequilla Sport fue fundada físicamente en Venezuela, específicamente en la ciudad de Barquisimeto, sirve como la sede principal actual de la empresa, decimos «principal» porque también tenemos oficinas en Acarigua y Caracas. Planificamos expandir este proyecto a nivel nacional, nos enorgullece ofrecer los mejores precios del mercado en zapatos de la más alta calidad: AAA y AA.</p>
-                            <a class="nav-link" href="http://"  id="B-Ver-Informacion1">VER INFORMACIÓN</a>
-                        
-                        </div>
-                        <div class="col">
-                            <img src="./Imagenes index/TLF.png" width="100%" alt="">
-                        </div>
+                <div class="row" >
+                    <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" id="Info">
+                        <h1>SOBRE NOSOTROS</h1>
+                        <p>Mantequilla Sport fue fundada físicamente en Venezuela, específicamente en la ciudad de Barquisimeto, sirve como la sede principal actual de la empresa, decimos «principal» porque también tenemos oficinas en Acarigua y Caracas. Planificamos expandir este proyecto a nivel nacional, nos enorgullece ofrecer los mejores precios del mercado en zapatos de la más alta calidad: AAA y AA.</p>
+                        <a class="nav-link" href="http://"  id="B-Ver-Informacion1">VER INFORMACIÓN</a>
+                    
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl">
+                        <img src="./Imagenes index/TLF.png" width="100%" alt="">
                     </div>
                 </div>
             </div>
@@ -113,16 +179,16 @@
     </video>
     </section>
 
-    <section class="d-block d-sm-block d-md-none" id="Identidad" style="margin: 0; padding: 0;">
+    <section class="d-block d-sm-block d-xl-none d-xxl-none d-lg-none d-md-block" id="Identidad" style="margin: 0; padding: 0;">
         <div class="absolute">
             <div class="container">
                 <div class=" ">
                     <div class="row" >
-                        <div class="col-12">
-                            <img src="./Imagenes index/TLF.png" width="100%" alt="" id="tlf">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl">
+                            <img src="./Imagenes index/TLF.png" width="80%" alt="" id="tlf">
                         </div>
 
-                        <div class="col-12" id="Info2">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl" id="Info2">
                             <h1>SOBRE NOSOTROS</h1>
                             <p>Mantequilla Sport fue fundada físicamente en Venezuela, específicamente en la ciudad de Barquisimeto, sirve como la sede principal actual de la empresa, decimos «principal» porque también tenemos oficinas en Acarigua y Caracas. Planificamos expandir este proyecto a nivel nacional, nos enorgullece ofrecer los mejores precios del mercado en zapatos de la más alta calidad: AAA y AA.</p>
                             <a class="nav-link" href="http://"  id="B-Ver-Informacion1">VER INFORMACIÓN</a>
@@ -140,7 +206,7 @@
     </section>
 
     <section>
-        <div class="container-fluid d-none d-sm-none d-md-block" style="margin: 0; padding: 0;">
+        <div class="container-fluid d-none d-sm-none d-xl-block d-xxl-block d-lg-none d-md-none" style="margin: 0; padding: 0;">
             <div class="container" >
                 <div class="row">
                     <div class="col" id="texto">
@@ -164,7 +230,7 @@
 
 
     <section>
-        <div class="container-fluid d-block d-sm-block d-md-none" style="margin: 0; padding: 0;">
+        <div class="container-fluid d-block d-sm-block d-xl-none d-xxl-none d-lg-block d-md-block" style="margin: 0; padding: 0;">
             <div class="container" >
                 <div class="row">
                     <div class="col" id="texto1">
@@ -188,7 +254,7 @@
 
 
 <section>
-<div class="container-fluid d-none d-sm-none d-md-block" style="margin: 0; padding: 0;">
+<div class="container-fluid d-none d-sm-none d-xl-block d-xxl-block d-lg-none d-md-none" style="margin: 0; padding: 0;">
     <div class="card" id="sociedades">
         <div class="card-body" id="sociedades">
                     
@@ -332,14 +398,6 @@
               </div>
               
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
     </div>
@@ -348,7 +406,7 @@
 
 
 <section>
-    <div class="container-fluid d-block d-sm-block d-md-none" style="margin: 0; padding: 0;">
+    <div class="container-fluid d-block d-sm-block d-xl-none d-xxl-none d-lg-block d-md-block" style="margin: 0; padding: 0;">
         <div class="card" id="sociedades">
             <div class="card-body" id="sociedades">
                         
@@ -516,18 +574,18 @@
         <div class="container-fluid" style="margin: 0; padding: 0;">
             <div class="card" id="mision">
                 <div class="card-body" id="mision">
-                    <div class="container d-none d-sm-none d-md-block">
+                    <div class="container d-none d-sm-none d-xl-block d-xxl-block d-lg-none d-md-none">
                         <div class="row">
-                            <div class="col" id="mision-text">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl" id="mision-text">
                                 <h1>MISIÓN</h1>
                                 <p>Nuestra misión en Mantequilla Sport es ser la mejor empresa nacional de calzado. Para lograrlo, nos esforzamos por ofrecer la mayor calidad y productos innovadores que destaquen cada día su posición frente a sus competidores.</p>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl">
                                 <img src="./Imagenes index/MISION-ICONO.png" width="100%" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="container d-block d-sm-block d-md-none">
+                    <div class="container d-block d-sm-block d-xl-none d-xxl-none d-lg-block d-md-block">
                         <div class="row">
                             <div class="col-12">
                                 <img src="./Imagenes index/MISION-ICONO.png" width="100%" alt="">
@@ -550,7 +608,7 @@
             <div class="card" id="vision">
                 <div class="card-body" id="vision">
                     <div class="">
-                        <div class="container -block d-sm-block d-md-none">
+                        <div class="container d-block d-sm-block d-xl-none d-xxl-none d-lg-block d-md-block">
                             <div class="row">
                                 <div class="col-12">
                                     <img src="./Imagenes index/vision-ICONO.png" width="100%" alt="">
@@ -564,12 +622,12 @@
                         </div>
                     </div>
                     <div class="">
-                        <div class="container d-none d-sm-none d-md-block">
+                        <div class="container d-none d-sm-none d-xl-block d-xxl-block d-lg-none d-md-none">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl">
                                     <img src="./Imagenes index/vision-ICONO.png" width="100%" alt="">
                                 </div>
-                                <div class="col" id="vision-text">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl" id="vision-text">
                                     <h1>MISIÓN</h1>
                                     <p>Nuestra misión en Mantequilla Sport es ser la mejor empresa nacional de calzado. Para lograrlo, nos esforzamos por ofrecer la mayor calidad y productos innovadores que destaquen cada día su posición frente a sus competidores.</p>
                                 </div>
@@ -584,18 +642,18 @@
 
 
     <section>
-        <div class="container d-none d-sm-none d-md-block">
+        <div class="container d-none d-sm-none d-xl-block d-xxl-block d-lg-none d-md-none">
             <div class="row">
-                <div class="col" id="valores-text">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl" id="valores-text">
                     <h1>VALORES</h1>
                     <p>Nuestra comunidad Mantequilla Sport, promueve los valores que definen nuestro carácter e identidad. Nos apasiona ayudar a nuestros hermanos venezolanos, queremos que nuestras actividades tengan sentido y trascendencia, que tengan un impacto directo en quienes nos rodean y que tengan la capacidad de superarnos a nosotros mismos, por esa razón brindamos oportunidades para todos. Nos gustaría ofrecer esto siempre y mejorarlo cada vez más. Con estos objetivos en mente, nuestra comunidad está en el centro de todo lo que hacemos. Estos son los valores que nos motivan, nos diferencian, nos unen y nos inspiran a correr y afrontar el día a día. En última instancia, lo que nos une a todos es nuestro propósito común, nuestra misión y visión general.</p>
                </div>
-               <div class="col">
+               <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl">
                 <img src="./Imagenes index/valores-icono.png" width="100%" alt="">
             </div>
             </div>
         </div>
-        <div class="container d-block d-sm-block d-md-none">
+        <div class="container d-block d-sm-block d-xl-none d-xxl-none d-lg-block d-md-block">
             <div class="row">
                 <div class="col-12">
                     <img src="./Imagenes index/valores-icono.png" width="100%" alt="">
@@ -614,12 +672,12 @@
             <div class="card" id="equipo">
                 <div class="card-body" id="equipo">
                     <div class="">
-                        <div class="container -block d-sm-block d-md-none">
+                        <div class="container d-block d-sm-block d-xl-none d-xxl-none d-lg-block d-md-block">
                             <div class="row">
-                                <div class="col-12">
-                                    <img src="./Imagenes index/Equipo.png" width="100%" alt="">
+                                <div class="col-12" style="text-align: center;">
+                                    <img src="./Imagenes index/Equipo.png" width="70%" alt="">
                                 </div>
-                                <div class="col-12" id="equipo-text">
+                                <div class="col-12" id="equipo-text1">
                                     <h1>EQUIPO</h1>
                                     <p>Nuestro equipo y colaboradores detrás del proyecto Mantequilla Sport, son profesionales multidisciplinarios que tienen amplia experiencia en la industria de ventas y comercio.</p>
                                 </div>
@@ -627,12 +685,12 @@
                         </div>
                     </div>
                     <div class="">
-                        <div class="container d-none d-sm-none d-md-block">
+                        <div class="container d-none d-sm-none d-xl-block d-xxl-block d-lg-none d-md-none">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl">
                                     <img src="./Imagenes index/Equipo.png" width="100%" alt="">
                                 </div>
-                                <div class="col" id="equipo-text">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl" id="equipo-text">
                                     <h1>EQUIPO</h1>
                                     <p>Nuestro equipo y colaboradores detrás del proyecto Mantequilla Sport, son profesionales multidisciplinarios que tienen amplia experiencia en la industria de ventas y comercio.</p>
                                 </div>
@@ -650,12 +708,12 @@
                 <div class="card-body" id="equipo">
                     <div class="container">
                         <div class="row">
-                            <div class="col" id="Mapa-text">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl" id="Mapa-text">
                                 <h1>NUESTRA VISION ES LLEGAR A TODA VENEZUELA</h1>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col" style="text-align: center; margin-top: 80px;">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl col-xxl" style="text-align: center; margin-top: 80px;">
                                 <img src="./Imagenes index/venezuela-1536x864.png" width="90%" alt="">
                             </div>
                         </div>
@@ -709,7 +767,7 @@
             <div class="card-body" id="footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg" id="footer-text">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" id="footer-text">
                             <h1>INFORMACIÓN GENERAL</h1>
                             <p><a class="nav-link" href="">Sobre nosotros</a></p>
                             <p><a class="nav-link" href="">Seguridad y Privacidad</a></p>
@@ -717,34 +775,34 @@
                             <p><a class="nav-link" href="">Recaudación de Fondo</a></p>
                             <p><a class="nav-link" href="">Contáctanos</a></p>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg" id="footer-text">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" id="footer-text">
                             <h1>COMPLEMENTOS</h1>
                             <p><a class="nav-link" href="">Cajas Sorpresa</a></p>
                             <p><a class="nav-link" href="">Dolares Mantequilla</a></p>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg" id="footer-text">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" id="footer-text">
                             <h1>ALIADOS Y LIDERES</h1>
                             <p><a class="nav-link" href="">Premios de rango</a></p>
                             <p><a class="nav-link" href="">Programa de Influencers</a></p>
                             <p><a class="nav-link" href="">Colaboradores y asociados</a></p>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg" id="footer-text">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" id="footer-text">
                             <h1>SOPORTE</h1>
                             <p><a class="nav-link" href="">Preguntas Frecuentes</a></p>
                             <p><a class="nav-link" href="">Soporte</a></p>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg" id="footer-text">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" id="footer-text">
                             <h1>DESCARGA</h1>
                         
-                            <div class="container">
+                            <div class="container" style="text-align: center;">
                                 <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg">
-                                        <img src="./Imagenes index/Google Play.png" width="100%" alt="">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl">
+                                        <img src="./Imagenes index/Google Play.png" width="80%" alt="">
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg">
-                                        <img src="./Imagenes index/App Store.png" width="100%" alt="">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl">
+                                        <img src="./Imagenes index/App Store.png" width="80%" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -753,13 +811,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg" style="text-align: center;" id="Copy">
-                            <p><i class="bi bi-c-circle"></i>2023 MANTEQUILLA STORE</p>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" style="text-align: center;" id="Copy">
+                            <p><i class="bi bi-c-circle-fill"></i>2023 MANTEQUILLA STORE</p>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg" style="text-align: center;">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" style="text-align: center;">
                             <a class="navbar-brand" href="#"><img src="./Imagenes index/mantequilla-logo.png" width="100px" alt="" id="Logo"></a>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg" style="text-align: center;">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl" style="text-align: center;">
                             <div class="container">
                                 <div class="row">
                                     <div class="col" id="iconos-redes">

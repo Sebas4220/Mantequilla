@@ -1,6 +1,14 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
 #Barra-menu{
 
 background-color: #ffbb00;
+
 
 }
 
@@ -34,21 +42,41 @@ border-radius: 100%;
 
 }
 
-#Menu ul li a{
+#Menu li a{
 text-align: center;
 color: rgb(0, 0, 0);
 font-size: 11px;
 margin-top: 5px;
 }
 
+
+
+#Nav-movil li a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 2px;
+}
+
 #sub-menu #letras{
+
 
 color: rgb(0, 0, 0);
 
-
 }
 
+#sub-menu #letras:hover{
 
+background-color: #ffbb00;
+border-radius:30px ;
+    
+}
+
+#sub-menu{
+
+background-color: #ffd86e;
+border-radius: 30px;
+}
 
 
 
@@ -99,10 +127,11 @@ margin-top: 40px ;
 color: #ffbb00;
 margin-top: 28%;
 font-size: 50px;
+
 }
 
 #Info p{
-
+    font-family: 'Montserrat', sans-serif;
 color: #FFFFFF;
 font-size: 15px;
     
@@ -119,7 +148,7 @@ font-size: 15px;
     
     color: #FFFFFF;
     font-size: 15px;
-        
+    
 }
 
 
@@ -164,6 +193,7 @@ font-size: 40px;
 font-size: 15px;
 color: #000000;
 text-align: center;
+
 }
 
 #B-Ver-Informacion {
@@ -387,6 +417,10 @@ color: #000000;
     margin-top: 40%;
     color: #ffbb00;
 }
+#equipo-text h1{
+    text-align: center;
+    color: #ffbb00;
+}
 
 #equipo-text p{
     text-align: center;
@@ -583,8 +617,16 @@ font-size: 12px;
     
 }
 
-#iconos-redes{
+#footer-text p:hover{
 
+color: #000000;
+background-color: #ffbb00;
+border-radius: 30px;
+
+}
+
+#iconos-redes{
+color: #000000;
 margin-top: 25px;
 font-size: 30px;
 
