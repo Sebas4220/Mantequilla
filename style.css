@@ -58,6 +58,16 @@ margin-top: 5px;
     margin-top: 2px;
 }
 
+
+#Nav-movil li a:focus-visible{
+
+box-shadow: none;
+text-decoration: none;
+text-shadow: none;
+border: none;
+
+}
+
 #sub-menu #letras{
 
 
@@ -195,6 +205,27 @@ color: #000000;
 text-align: center;
 
 }
+
+
+#B-sociedades{
+
+
+background-color: #000000;
+color: #FFFFFF;
+border-radius: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+#B-sociedades:hover{
+background-color: #ffffff;
+color: #000000;
+border-radius: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
 
 #B-Ver-Informacion {
 
