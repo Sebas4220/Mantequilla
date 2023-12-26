@@ -1,0 +1,216 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+#Barra-menu{
+
+background-color: #ffbb00;
+
+
+}
+
+
+#B-Menu{
+
+font-size: 50px;
+color: #000000;
+}
+
+.navbar-toggler{
+
+border: none;
+
+}
+
+
+
+.navbar-toggler:focus{
+
+box-shadow:  0px 0px 0px 0px #000000;
+text-shadow: 0px 0px 0px 0px #000000;
+border: none;
+    
+}
+
+#Logo{
+
+box-shadow: 0px 0px 7px 0.1px #000000 ;
+border-radius: 100%;
+
+}
+
+#Menu li a{
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 11px;
+margin-top: 5px;
+}
+
+
+
+#Nav-movil li a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+
+#Nav-movil li a:focus-visible{
+
+box-shadow: none;
+text-decoration: none;
+text-shadow: none;
+border: none;
+
+}
+
+#sub-menu #letras{
+
+
+color: rgb(0, 0, 0);
+
+}
+
+#sub-menu #letras:hover{
+
+background-color: #ffbb00;
+border-radius:30px ;
+    
+}
+
+#sub-menu{
+
+background-color: #ffd86e;
+border-radius: 30px;
+}
+
+
+
+#Info{
+
+padding: 0;
+margin: 0;
+border: none;
+border-radius: 0;
+background-color: #000000;
+
+}
+
+#Info1{
+margin-top: 30px;
+margin-bottom: 30px;
+border: none;
+}
+
+#info-textt h1{
+color: #ffbb00;
+text-align: center;
+
+}
+
+
+#info-textt p{
+
+color: white;
+text-align: center;
+margin-top: 15px;
+font-size: 15px;
+
+}
+
+
+#info-text h3{
+color: #ffbb00;
+text-align: start;
+font-size: 20px;
+}
+
+#info-text p{
+
+margin-top: 15px;
+font-size: 12px;
+color: white;
+text-align: start;
+
+}
+
+#info-text a{
+
+text-decoration: underline;
+font-size: 12px;
+color: #ffd86e;
+text-align: start;
+}
+
+#info-img{
+
+margin-bottom: 40px;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+
+    margin: 20px;
+    padding: 0;
+    border: none;
+}
+
+#footer-text h1{
+
+color: #000000;
+text-align: center;
+font-size: 15px;
+
+}
+
+#footer-text p{
+color: #000000;
+text-align: center;
+font-size: 12px;
+    
+}
+
+#footer-text p:hover{
+
+color: #000000;
+background-color: #ffbb00;
+border-radius: 30px;
+
+}
+
+#iconos-redes{
+color: #000000;
+margin-top: 25px;
+font-size: 30px;
+
+}
+
+#Copy{
+margin-top: 45px;
+font-size: 12px;
+
+}
