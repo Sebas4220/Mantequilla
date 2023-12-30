@@ -137,7 +137,7 @@ width: 100%;
 
     text-align: center;
     color: white;
-    font-size: 125px;
+    font-size: 95px;
 
 
 
@@ -153,7 +153,7 @@ width: 100%;
 
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 
 
     animation: typing 2s steps(70), blink .2s infinite step-end alternate;
@@ -183,7 +183,16 @@ width: 100%;
 
 
 
+#sociedad{
 
+
+margin: 0;
+padding: 0;
+border: none;
+background-color: #000000;
+
+
+}
 
 
 
