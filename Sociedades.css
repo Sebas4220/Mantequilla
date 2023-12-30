@@ -139,7 +139,6 @@ width: 100%;
     color: white;
     font-size: 125px;
 
-    border-radius: 40px;
 
 
     animation: typing 2s steps(70), blink .2s infinite step-end alternate;
@@ -156,7 +155,6 @@ width: 100%;
     color: white;
     font-size: 40px;
 
-    border-radius: 20px;
 
     animation: typing 2s steps(70), blink .2s infinite step-end alternate;
     overflow: hidden;
