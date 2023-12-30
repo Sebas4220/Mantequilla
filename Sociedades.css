@@ -205,15 +205,80 @@ background-color: white;
 
 #Bronce h1{
 
-font-size: 17px;
+font-size: 22px;
 color: #ffbb00;
 
 }
 
 #Bronce p{
 
-    font-size: 11px;
+    font-size: 16px;
     color: white;
+}
+
+
+
+#Bronce1 h1{
+
+font-size: 22px;
+color: black;
+
+}
+
+#Bronce1 p{
+
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+#Bronce2 h1{
+
+font-size: 22px;
+color: #ffbb00;
+
+}
+
+#Bronce2 p{
+
+    font-size: 16px;
+    color: white;
+}
+
+
+
+#Bronce3 h1{
+
+font-size: 22px;
+color: black;
+
+}
+
+#Bronce3 p{
+
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+#card{
+
+background-color: #ffbb00;
+border: none;
+border-radius: none
+;
+
+
 }
 
 
