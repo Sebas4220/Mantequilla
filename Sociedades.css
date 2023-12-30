@@ -154,7 +154,7 @@ width: 100%;
 
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 
 
     animation: typing 2s steps(70), blink .2s infinite step-end alternate;
@@ -196,6 +196,25 @@ background-color: #000000;
 }
 
 
+#card-bronce{
+
+border-radius: 40px;
+background-color: white;
+
+}
+
+#Bronce h1{
+
+font-size: 17px;
+color: #ffbb00;
+
+}
+
+#Bronce p{
+
+    font-size: 11px;
+    color: white;
+}
 
 
 
