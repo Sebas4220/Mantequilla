@@ -1,0 +1,293 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000  ;
+}
+
+
+#Barra-menu{
+
+background-color: #ffbb00;
+
+
+}
+
+
+#B-Menu{
+
+font-size: 50px;
+color: #000000;
+}
+
+.navbar-toggler{
+
+border: none;
+
+}
+
+
+
+.navbar-toggler:focus{
+
+box-shadow:  0px 0px 0px 0px #000000;
+text-shadow: 0px 0px 0px 0px #000000;
+border: none;
+    
+}
+
+#Logo{
+
+box-shadow: 0px 0px 7px 0.1px #000000 ;
+border-radius: 100%;
+
+}
+
+#Menu li a{
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 11px;
+margin-top: 5px;
+}
+
+
+
+#Nav-movil li a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+
+#Nav-movil li a:focus-visible{
+
+box-shadow: none;
+text-decoration: none;
+text-shadow: none;
+border: none;
+
+}
+
+#sub-menu #letras{
+
+
+color: rgb(0, 0, 0);
+
+}
+
+#sub-menu #letras:hover{
+
+background-color: #ffbb00;
+border-radius:30px ;
+    
+}
+
+#sub-menu{
+
+background-color: #ffd86e;
+border-radius: 30px;
+}
+
+
+
+
+#Fallas h1{
+
+    color: white;
+    font-size: 70px;
+
+}
+
+#Fallas img{
+
+    margin-bottom: 40px ;
+
+
+}
+
+#Fallas h3{
+
+color: #ffbb00;
+font-size: 20px;
+margin: 30px;
+}
+
+#Fallas p{
+
+font-size: 15px;
+color: white;
+
+}
+
+
+.url{
+
+color: #ffbb00;
+
+}
+
+
+
+
+
+#Soporte h1{
+
+color: white;
+font-size: 90px;
+margin-top: 40px ;
+
+}
+
+#Soporte img{
+
+margin-bottom: 40px ;
+
+
+}
+
+
+#Soporte h3{
+
+color: #ffbb00;
+font-size: 20px;
+margin: 30px;
+}
+
+#Soporte p{
+
+font-size: 15px;
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Fallas1 h1{
+
+    color: white;
+    font-size: 40px;
+
+}
+
+#Fallas1 img{
+
+    margin-bottom: 40px ;
+
+
+}
+
+#Fallas1 h3{
+
+color: #ffbb00;
+font-size: 15px;
+margin: 30px;
+}
+
+#Fallas1 p{
+
+font-size: 13px;
+color: white;
+
+}
+
+
+#Soporte1 h1{
+
+color: white;
+font-size: 50px;
+margin-top: 40px ;
+
+}
+
+#Soporte1 img{
+
+margin-bottom: 40px ;
+
+
+}
+
+
+#Soporte1 h3{
+
+color: #ffbb00;
+font-size: 16px;
+margin: 30px;
+}
+
+#Soporte1 p{
+
+font-size: 13px;
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+
+    
+    padding: 20px;
+    border: none;
+}
+
+#footer-text h1{
+
+color: #000000;
+text-align: center;
+font-size: 15px;
+
+}
+
+#footer-text p{
+color: #000000;
+text-align: center;
+font-size: 12px;
+    
+}
+
+#footer-text p:hover{
+
+color: #000000;
+background-color: #ffbb00;
+border-radius: 30px;
+
+}
+
+#iconos-redes{
+color: #000000;
+margin-top: 25px;
+font-size: 30px;
+
+}
+
+#Copy{
+margin-top: 45px;
+font-size: 12px;
+
+}
